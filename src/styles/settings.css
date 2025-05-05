@@ -1,0 +1,117 @@
+.main-setting{
+        width: 100%;
+        display: flex;
+        margin-left: 200px;
+        justify-content: center;
+        align-items: center;
+        /* border: 3px solid red; */
+}
+
+.second-main-setting{
+    /* border: 3px solid red; */
+    height: 80%;
+    width: 80%; 
+}
+
+.tail-title-setting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.body-setting{
+    margin-top: 30px;
+    background-color: rgba(249, 249, 249, 0.7);
+    /* สีดำที่โปร่งใส 50% */
+    border-radius: 35px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* border: 3px solid rgb(0, 162, 255); */
+}
+
+.container-setting{
+    /* background: seagreen; */
+    background: #fff;
+    height: 50vh;
+    /* border: 3px solid rgb(232, 114, 25); */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 35px;
+}
+
+.setting-image{
+    /* border: 3px solid rgb(22, 35, 181); */
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .setting-image-group{
+    /* border: 3px solid rgb(27, 194, 39); */
+    
+/* } */ 
+
+.setting-text-group{
+    margin-top: 40px;
+    /* border: 3px solid rgb(162, 177, 63); */
+    width: 700px;
+    justify-content: center;
+}
+
+.setting-item-one{
+    /* border: 3px solid rgb(188, 6, 208); */
+    display: flex;
+    justify-content: center;
+
+}
+
+.setting-item-two{
+    /* border: 3px solid rgb(188, 6, 208); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setting-input {
+    display: block;
+    border-radius: 35px;
+    border: 2px solid rgb(7, 157, 177);
+    height: 25px;
+    padding: 15px;
+}
+
+.button-box {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+.button-save {
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 35px;
+    background: rgb(81, 151, 231);
+    border: none;
+}
+
+.button-cancel {
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 35px;
+    background: rgb(229, 3, 3);
+    border: none;
+}
+
+.button-save:hover {
+    background-color: aqua;
+}
+
+.button-cancel:hover {
+    background-color: rgb(126, 12, 12);
+}

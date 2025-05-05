@@ -1,0 +1,165 @@
+.graph-dashboard{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 1.4rem;
+    margin-left: 15vw; 
+    padding: 2rem;
+}
+
+main .graph-date-picker{
+    display: inline-block;
+    background: rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.3rem 1.4rem;
+    border: none;
+}
+
+main .graph-select {
+    display: inline-block;
+    background: rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.3rem 1.4rem;
+    border: none;
+}
+
+.graph-main-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    margin-top: 1.4rem;
+    
+}
+
+.line-graph-chart{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    width: 900px;
+    height: 230px;
+    border-radius: 1.4rem;
+    margin-bottom: 1.8rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+}
+
+.bar-graph-chart{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    width: 800px;
+    height: 230px;
+    border-radius: 1.4rem;
+    margin-bottom: 1.8rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+}
+
+.bar-graph-chart:hover{
+    box-shadow: none;
+}
+
+.line-graph-chart:hover{
+    box-shadow: none;
+}
+
+.graph-right-panel{
+    width: 300px;
+    margin-top: 1.4rem;
+}
+
+
+section .graph-title h2{
+    font-size: 20px;
+}
+
+section .graph-chemical-list{
+    margin-top: 2.3rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+}
+
+section .graph-chemical-list:hover{
+    box-shadow: none;
+}
+
+section .chemical-water-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+section .chemical-water-item span{
+    padding: 0.1rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.chemical-water-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+section .chemical-fertilizer-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+section .chemical-fertilizer-item span{
+    padding: 0.1rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.chemical-fertilizer-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+section .chemical-hazardous-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+section .chemical-hazardous-item span{
+    padding: 0.1rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.chemical-hazardous-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}

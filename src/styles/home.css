@@ -1,0 +1,306 @@
+.main-home {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: auto;
+    margin-top: 1.4rem;
+    margin-left: 15vw; 
+    padding: 2rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.6rem;
+    margin-top: 20px;
+}
+
+.card{
+    background: white;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+}
+
+.card:hover{
+    box-shadow: none;
+}
+
+.card .battery-header-icons span {
+    background: #28a745;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.card .flow-water-header-icons span {
+    background: #17a2b8;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+.card .leval-water-header-icons span {
+    background: coral;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+.card .robot-header-icons span {
+    background: #dc3545;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.card .pump-header-icons span {
+    background: #ffc107;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+.status-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 1rem;
+}
+
+.status-item span {
+    background: #17a2b8;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%; /* ให้มันมีระยะสำหรับ space-between */
+}
+
+.status-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box-battery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-flow-water{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-leval-water{
+    display: flex;
+    justify-content: space-between;
+
+}
+.battery-text{
+    margin-top: 1rem;
+}
+.robot-text{
+    margin-top: 1rem;
+}
+.leval-water-text{
+    margin-top: 1rem;
+}
+.pump-text{
+    margin-top: 1rem;
+}
+.flow-water-text{
+    margin-top: 1rem;
+}
+
+.batter-value{
+    background: black;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    
+}
+.flow-water-value{
+    background: black;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    
+}
+.leval-water-value{
+    background: black;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    
+}
+.robot-state{
+    background: black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    
+}
+
+.pump-state{
+    background: black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+   
+}
+
+.graph-box{
+    margin-top: 2rem;
+}
+
+.haeder-graph-contens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 1.4rem;
+}
+
+.graph-contens{
+    width: 45vw;
+    height: 37vh;
+    padding: 2rem;
+    border-radius: 2rem;
+    background: white;
+     margin-top: 1.4rem;
+     box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+} 
+
+.data{
+    width: 30vw;
+    height: 37vh;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 1.4rem;
+    background: white;
+    box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+    overflow: hidden; 
+}
+
+.data p {
+    margin-top: 0.5rem;
+}
+
+.graph-contens:hover , .data:hover{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1200px ) {
+    .main-home {
+        display: grid;
+        max-width:70%;
+        margin:0 auto;
+        gap: 1.8rem;
+        grid-template-columns: auto;
+        margin-top: 1.4rem;
+        margin-left: 15vw; 
+        padding: 2rem; 
+    }
+    
+    .data{
+        width: 30vw;
+        height: 37vh;
+        padding: 1rem;
+        border-radius: 0.9rem;
+        margin-top: 1.4rem;
+        background: white;
+        box-shadow:  0 2rem 3rem #dce1ed;
+        transition: all 300ms ease;
+    }
+
+    .data p {
+        font-size: 0.7rem;
+    }
+    
+    .data h2 {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .main-home {
+        display: grid;
+        width: 60%;
+        max-width: 1000px; /* หรือค่าที่เหมาะสม */
+        margin: 1.4rem auto 0 auto;
+        padding: 2rem;
+        gap: 1.8rem;
+        box-sizing: border-box; /* ป้องกัน padding overflow */
+        position: fixed;
+        left: 7rem;
+        
+    }
+
+    .graph-contens{
+        padding: 2rem;
+        height: 19vh;
+    }
+
+    .data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        height: 19vh;
+    }
+
+    .data p {
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .main-home {
+        display: grid;
+        max-width: 48%;
+        margin:0 auto;
+        gap: 1.8rem;
+        grid-template-columns: auto;
+        margin-top: 1.4rem;
+        margin-left: 15vw; 
+        padding: 2rem;
+    }
+
+    .haeder-graph-contens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .data{
+        width: 45vw;
+        height: 37vh;
+        padding: 2rem;
+        border-radius: 2rem;
+        margin-top: 1.4rem;
+        background: white;
+        box-shadow:  0 2rem 3rem #dce1ed;
+        transition: all 300ms ease;
+        overflow: hidden; 
+    }
+
+    .data h2 {
+        font-size: 1rem;
+    }
+    
+}

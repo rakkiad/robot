@@ -1,0 +1,83 @@
+.main-sparying {
+    /* border: 3px solid seagreen; */
+    /* margin:  100px auto auto 250px ; */
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-sparying {
+    /* border: 2px solid red; */
+    text-align: center;
+    /* padding: 10px; */
+
+}
+
+.head-title-sparying {
+    font-weight: 700;
+    font-size: 55px;
+    display: inline-block;
+}
+
+.tail-title-sparying {
+    font-size: 36px;
+    display: inline-block;
+}
+
+.under-sparying {
+    font-size: 35px;
+}
+
+.cardContainer-sparying  {
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    padding: 50px;
+    margin: 50px;
+    background: #d9f7ffd7;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 35px;
+    /* border: 2px solid; */
+}
+
+.box-sparying-connected{
+    width: 600px;
+    /* border: 2px solid rgb(136, 185, 29); */
+}
+
+.box-header-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.state-sparying{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5.5rem;
+}
+
+.img-spary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid rgb(195, 195, 1);
+}
+
+.calss-one p{
+    /* border: 2px solid rgb(241, 15, 15); */
+    margin-top: 5px;
+}
+.calss-two p{
+    /* border: 2px solid rgb(241, 15, 15); */
+    margin-top: 5px;
+}

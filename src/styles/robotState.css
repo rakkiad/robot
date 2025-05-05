@@ -1,0 +1,143 @@
+.main-robotstate {
+    /* border: 3px solid seagreen; */
+    /* margin:  100px auto auto 250px ; */
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-robotstate {
+    /* border: 2px solid red; */
+    text-align: center;
+    /* padding: 10px; */
+
+}
+
+.head-title-robotstate {
+    font-weight: 700;
+    font-size: 55px;
+    display: inline-block;
+}
+
+.tail-title-robotstate {
+    font-size: 36px;
+    display: inline-block;
+}
+
+.under-robotstate {
+    font-size: 35px;
+}
+
+.cardContainer-robotstate  {
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    padding: 50px;
+    margin: 50px;
+    background: #d9f7ffd7;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 35px;
+    /* border: 2px solid; */
+}
+
+.box-state-connected{
+    width: 600px;
+    /* border: 2px solid rgb(136, 185, 29); */
+}
+
+.box-header-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.state-divied{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 2rem;
+}
+
+/* .robot{
+    border: 1px solid purple;
+}
+
+.battery{
+    border: 1px solid purple;
+}
+
+.pump{
+    border: 1px solid purple;
+}
+
+.flowsenser{
+    border: 1px solid purple;
+}
+
+.water{
+    border: 1px solid purple;
+} */
+
+.robot p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.battery p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.pump p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.flowsenser p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.water p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.robotstate{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+.battery-value{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+.pump-state{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+.flow-rate{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+.water-lavel{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
