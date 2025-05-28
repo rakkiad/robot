@@ -1,0 +1,82 @@
+.container-otp{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f4f6;
+    z-index: 100;
+}
+
+.crad-otp{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 17px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form-box-otp{
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+}
+
+.form-box-otp form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box-otp h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: rgb(53, 131, 164);
+}
+
+.form-box-otp input{
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+.form-box-otp input:focus {
+    outline: none;
+    border-color: rgb(53, 131, 164);
+    box-shadow: 0 0 5px rgba(53, 131, 164, 0.5);
+}
+
+.form-box-otp button {
+    width: 100px;
+    margin-left: 65px;
+    padding: 0.5rem;
+    background-color: rgb(53, 131, 164);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form-box-otp button:hover {
+    background-color: rgb(96, 175, 208);
+}
+
+.form-box-otp p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: rgb(53, 131, 164);
+    cursor: pointer;
+    font-weight: 500;
+}

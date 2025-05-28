@@ -1,117 +1,155 @@
-.main-setting{
-        width: 100%;
-        display: flex;
-        margin-left: 200px;
-        justify-content: center;
-        align-items: center;
-        /* border: 3px solid red; */
-}
+/* ตั้งค่าหลักของหน้า */
+.main-setting {
+    width: 80%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    margin-top: 1.4rem;
+    margin-left: 15vw;
+    padding: 2rem;
+  }
+  
 
-.second-main-setting{
-    /* border: 3px solid red; */
-    height: 80%;
-    width: 80%; 
-}
-
-.tail-title-setting{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
+  .header-setting {
+    margin-bottom: 1.5rem;
+  }
+  
+  .header-setting h2 {
     font-weight: bold;
-    /* border: 1px solid rebeccapurple; */
-}
-
-.body-setting{
-    margin-top: 30px;
-    background-color: rgba(249, 249, 249, 0.7);
-    /* สีดำที่โปร่งใส 50% */
-    border-radius: 35px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    /* border: 3px solid rgb(0, 162, 255); */
-}
-
-.container-setting{
-    /* background: seagreen; */
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .header-setting p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* กล่องเนื้อหาหลัก */
+  .card-setting {
+    display: flex;
+    gap: 40px;
     background: #fff;
-    height: 50vh;
-    /* border: 3px solid rgb(232, 114, 25); */
+    border-radius: 2rem;
+    padding: 30px;
+    box-shadow:  0 2rem 3rem #dce1ed;
+    transition: all 300ms ease;
+  }
+
+  .card-setting:hover {
+    box-shadow: none;
+  }
+  
+  /* ด้านซ้าย: รูปโปรไฟล์ */
+  .left-section {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 2.6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 3px solid #88b7b9;
+  }
+  
+  .left-section h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .left-section p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* ด้านขวา: ฟอร์ม */
+  .right-section {
+    flex: 1;
+  }
+  
+  /* ปุ่มอัปโหลดรูป */
+  .upload-button {
+    background-color: #88b7b9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #17a2b8;
+  }
+  
+  /* กลุ่มฟอร์ม */
+  .form-group {
     display: flex;
-    justify-content: space-between;
-    border-radius: 35px;
-}
-
-.setting-image{
-    /* border: 3px solid rgb(22, 35, 181); */
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .setting-image-group{
-    /* border: 3px solid rgb(27, 194, 39); */
-    
-/* } */ 
-
-.setting-text-group{
-    margin-top: 40px;
-    /* border: 3px solid rgb(162, 177, 63); */
-    width: 700px;
-    justify-content: center;
-}
-
-.setting-item-one{
-    /* border: 3px solid rgb(188, 6, 208); */
-    display: flex;
-    justify-content: center;
-
-}
-
-.setting-item-two{
-    /* border: 3px solid rgb(188, 6, 208); */
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .column {
+    flex: 1 1 45%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.setting-input {
-    display: block;
-    border-radius: 35px;
-    border: 2px solid rgb(7, 157, 177);
-    height: 25px;
-    padding: 15px;
-}
-
-.button-box {
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    gap: 1rem;
-}
-
-.button-save {
-    color: #fff;
-    padding: 5px 15px;
-    border-radius: 35px;
-    background: rgb(81, 151, 231);
+  }
+  
+  .column label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  
+  .column input,
+  .column textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #fdfdfd;
+    transition: border-color 0.2s ease;
+  }
+  
+  .column input:focus,
+  .column textarea:focus {
+    border-color: #88b7b9;
+    outline: none;
+  }
+  
+  .column textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  /* ปุ่มบันทึก */
+  .save-button {
+    background-color: #88b7b9;
+    color: white;
+    padding: 12px 30px;
     border: none;
-}
-
-.button-cancel {
-    color: #fff;
-    padding: 5px 15px;
-    border-radius: 35px;
-    background: rgb(229, 3, 3);
-    border: none;
-}
-
-.button-save:hover {
-    background-color: aqua;
-}
-
-.button-cancel:hover {
-    background-color: rgb(126, 12, 12);
-}
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #7ba6a8;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+  
