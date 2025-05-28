@@ -31,7 +31,7 @@ export default function Sidebar() {
                 </div>
 
                 <div className="sidebar">
-                    <Link href="/" className={["/", "/robotState", "/sparying"].includes(pathname) ? "active" : ""}>
+                    <Link href="/home" className={pathname === "/home" ? "active" : ""}>
                         <span className="material-symbols-outlined">grid_view</span>
                         <div className="tooltip">Dashboard</div>
                         <h3>Dashboard</h3>
@@ -62,7 +62,7 @@ export default function Sidebar() {
                             </div>
                         </div>
                     </div>
-                    <Link href="/logout">
+                    <Link href="/">
                         <span className="material-symbols-outlined">logout</span>
                         <div className="tooltip">Logout</div>
                         <h3>Logout</h3>

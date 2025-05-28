@@ -72,9 +72,10 @@ export default function Page() {
 
                 </div>
                 <div className="graph-box">
-                    <h2>กราฟการใช้สารเคมีล่าสุด</h2>
+                    
                     <div className="haeder-graph-contens">
                         <div className="graph-contens">
+                            <h2>กราฟแสดงสถานะ</h2>
                         </div>
                         <div className="data">
                             <h2>ข้อมูลการฉีดพ่น</h2>
