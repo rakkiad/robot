@@ -123,8 +123,6 @@ aside .close {
 
 /* ======== Sidebar Menu ======== */
 aside .sidebar {
-  /* background: #F5F5F5; */
-  /* background: white; */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -222,6 +220,49 @@ aside .sidebar .user-profile:last-child {
 
 aside .sidebar a .tooltip {
   display: none;
+}
+
+.robots-toggle{
+  display: flex;
+  align-items: center;
+  margin-left: 1.6rem;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0cap 0.5rem;
+  gap: 1rem;
+  border-bottom: #b5b0b0 solid 0.5px;
+
+}
+
+.robots-toggle span{
+  font-size: 1.6rem;
+  color: var(--color-info-dark);
+}
+
+.robots-section h3 {
+  cursor: pointer;
+  color: var(--color-info-dark);
+}
+
+.robot-list {
+  padding-left: 20px;
+}
+
+.robot-list h4 {
+  margin: 5px 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.robot-list h4:hover {
+  color: #f39c12;
+}
+
+.robot-list p{
+  margin-top: 9px;
+  margin-left: 3.4rem;
+  font-size: 0.8rem;
+  color: var(--color-info-dark);
 }
 
 @media screen and (max-width: 1200px) {
